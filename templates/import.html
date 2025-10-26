@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="card">
+    <h2>Importer le vocabulaire</h2>
+    <p class="text-muted">Un élément par ligne, format : <code>English : French</code>. Vous pouvez coller du texte ci-dessous ou téléverser un fichier <code>.txt</code> / <code>.csv</code>.</p>
+    <form method="post" enctype="multipart/form-data">
+      <div class="mb-3">
+        <label class="form-label">Coller le texte</label>
+        <textarea class="form-control" name="text" rows="10" placeholder="Sworn : juré\nI can hardly wait : Je ne peux pas attendre"></textarea>
+        <div class="form-text mt-2">Astuce : le séparateur est le premier deux-points <code>:</code> trouvé sur la ligne. Les lignes vides et celles commençant par <code>#</code> sont ignorées.</div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Ou téléverser un fichier</label>
+        <input class="form-control" type="file" name="file" accept=".txt,.csv">
+      </div>
+      <div class="d-flex gap-2">
+        <button class="btn btn-primary" type="submit">Importer</button>
+        <a class="btn btn-outline-secondary" href="/">Annuler</a>
+      </div>
+    </form>
+  </div>
+{% endblock %}

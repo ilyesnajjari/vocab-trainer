@@ -1,0 +1,5332 @@
+[
+  {
+    "id": 1,
+    "en": "regardless",
+    "fr": "Malgré tout",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 2,
+    "en": "To provide",
+    "fr": "fournir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 3,
+    "en": "Therefore",
+    "fr": "Par conséquent",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 4,
+    "en": "Hues",
+    "fr": "teinte",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 5,
+    "en": "Shades",
+    "fr": "nuances",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 6,
+    "en": "Perhaps",
+    "fr": "peut être",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 7,
+    "en": "acknowledged",
+    "fr": "Reconnu",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 8,
+    "en": "providing that",
+    "fr": "À condition que",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 9,
+    "en": "run out of",
+    "fr": "manquer de",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 10,
+    "en": "take legal action",
+    "fr": "Intenter une action en justice",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 11,
+    "en": "Work out",
+    "fr": "trouver, élaborer ou résoudre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 12,
+    "en": "Impress",
+    "fr": "impressionner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 13,
+    "en": "Capacity",
+    "fr": "capacité (stockage)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 14,
+    "en": "Ability",
+    "fr": "capacité (skill d’une personne)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 15,
+    "en": "actually",
+    "fr": "en fait",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 16,
+    "en": "Spare",
+    "fr": "supplémentaire / prêter / donner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 17,
+    "en": "Quiet",
+    "fr": "tranquille",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 18,
+    "en": "Praise",
+    "fr": "éloge",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 19,
+    "en": "Lie",
+    "fr": "mensonge",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 20,
+    "en": "Lay",
+    "fr": "allonger",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 21,
+    "en": "effective",
+    "fr": "efficace (résultat)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 22,
+    "en": "Efficient",
+    "fr": "efficace (rapide)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 23,
+    "en": "involve",
+    "fr": "impliquer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 24,
+    "en": "Evolve",
+    "fr": "évoluer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 25,
+    "en": "released",
+    "fr": "libérer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 26,
+    "en": "convenience",
+    "fr": "avantage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 27,
+    "en": "definitely",
+    "fr": "sans aucun doute",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 28,
+    "en": "hopefully",
+    "fr": "Avec un peu de chance",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 29,
+    "en": "A unique",
+    "fr": "un unique (non “an” unique)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 30,
+    "en": "practitioners",
+    "fr": "Praticiens",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 31,
+    "en": "thoroughly",
+    "fr": "a fond",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 32,
+    "en": "apprentice",
+    "fr": "apprenti",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 33,
+    "en": "alterations",
+    "fr": "modifications",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 34,
+    "en": "award",
+    "fr": "prix",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 35,
+    "en": "forward",
+    "fr": "en avant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 36,
+    "en": "to point out",
+    "fr": "Pour souligner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 37,
+    "en": "To stir",
+    "fr": "remuer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 38,
+    "en": "To slice",
+    "fr": "Trancher",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 39,
+    "en": "To dice",
+    "fr": "coupé en dés",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 40,
+    "en": "To chop",
+    "fr": "Hacher",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 41,
+    "en": "Dairy",
+    "fr": "laiterie",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 42,
+    "en": "Some soap",
+    "fr": "Un peu de savon",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 43,
+    "en": "To flush",
+    "fr": "Pour rincer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 44,
+    "en": "A chest of drawers",
+    "fr": "Une commode",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 45,
+    "en": "drawers",
+    "fr": "Tiroirs",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 46,
+    "en": "To nap",
+    "fr": "siéster",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 47,
+    "en": "A wardrobe",
+    "fr": "Une armoire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 48,
+    "en": "Some cutlery",
+    "fr": "Quelques couverts",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 49,
+    "en": "A kettle",
+    "fr": "une bouilloire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 50,
+    "en": "Shelves",
+    "fr": "étagères",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 51,
+    "en": "A rug",
+    "fr": "tapis  (petit)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 52,
+    "en": "An armchair",
+    "fr": "Un fauteuil",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 53,
+    "en": "A cottage",
+    "fr": "un chalet",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 54,
+    "en": "A landlord / A landlady",
+    "fr": "propriétaire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 55,
+    "en": "A block of flats",
+    "fr": "Un bloc d'appartements",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 56,
+    "en": "roadwork",
+    "fr": "travaux (pour les routes)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 57,
+    "en": "Used to",
+    "fr": "habitude dans le passé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 58,
+    "en": "Amount",
+    "fr": "montant (uncountable)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 59,
+    "en": "put down",
+    "fr": "Poser quelque chose",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 60,
+    "en": "Enjoy",
+    "fr": "apprécier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 61,
+    "en": "exhibit",
+    "fr": "Exposer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 62,
+    "en": "keynote",
+    "fr": "Thème principal",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 63,
+    "en": "expectations",
+    "fr": "Attentes",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 64,
+    "en": "remain",
+    "fr": "rester",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 65,
+    "en": "boundaries",
+    "fr": "limites",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 66,
+    "en": "Settle",
+    "fr": "regler (conflit)/s'installer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 67,
+    "en": "Lively",
+    "fr": "vif , animé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 68,
+    "en": "Kind",
+    "fr": "genre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 69,
+    "en": "A baker",
+    "fr": "Un boulanger",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 70,
+    "en": "A butcher",
+    "fr": "Un boucher",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 71,
+    "en": "An intern",
+    "fr": "un stagiaire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 72,
+    "en": "foreman",
+    "fr": "contremaitre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 73,
+    "en": "The mining industry",
+    "fr": "L'industrie minière",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 74,
+    "en": "A light industry",
+    "fr": "Une industrie légère",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 75,
+    "en": "The hospitality industry",
+    "fr": "L'industrie hôtelière",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 76,
+    "en": "To do casual work",
+    "fr": "Pour faire du travail occasionnel",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 77,
+    "en": "To get fired",
+    "fr": "Pour se faire virer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 78,
+    "en": "To be made redundant",
+    "fr": "pour etre licencier (raisons économiques)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 79,
+    "en": "unemployed",
+    "fr": "au chômage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 80,
+    "en": "Personal belongings",
+    "fr": "effet personnel",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 81,
+    "en": "Wish",
+    "fr": "souhait + to",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 82,
+    "en": "Close collaboration",
+    "fr": "collaboration étroite",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 83,
+    "en": "Premises",
+    "fr": "locaux",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 84,
+    "en": "Instead of",
+    "fr": "au lieu de",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 85,
+    "en": "Unforeseen",
+    "fr": "non prévue",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 86,
+    "en": "Call off",
+    "fr": "annuler",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 87,
+    "en": "Regarding",
+    "fr": "concernant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 88,
+    "en": "Almost",
+    "fr": "presque",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 89,
+    "en": "Reach",
+    "fr": "atteindre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 90,
+    "en": "Willing",
+    "fr": "prêt",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 91,
+    "en": "Applicants",
+    "fr": "candidat",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 92,
+    "en": "To be on time",
+    "fr": "être a l’heure",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 93,
+    "en": "Wonderful",
+    "fr": "merveilleux",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 94,
+    "en": "Succed",
+    "fr": "réussir + in",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 95,
+    "en": "Advertising agency",
+    "fr": "agence de publicité",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 96,
+    "en": "Otherwise",
+    "fr": "sinon , autrement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 97,
+    "en": "Label",
+    "fr": "étiquette",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 98,
+    "en": "Famous",
+    "fr": "célèbre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 99,
+    "en": "Brands",
+    "fr": "marque",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 100,
+    "en": "Set up",
+    "fr": "s’installer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 101,
+    "en": "Short term",
+    "fr": "court terme",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 102,
+    "en": "Sold out",
+    "fr": "épuiser (+of si équipement/objet)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 103,
+    "en": "Sued for",
+    "fr": "poursuivre en justice",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 104,
+    "en": "Pursued",
+    "fr": "poursuivre / suivre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 105,
+    "en": "Clock in",
+    "fr": "pointer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 106,
+    "en": "To have lunch",
+    "fr": "déjeuner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 107,
+    "en": "Stressed out",
+    "fr": "stressé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 108,
+    "en": "Churches",
+    "fr": "église",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 109,
+    "en": "Plenty",
+    "fr": "beaucoup / plus qu’assez",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 110,
+    "en": "First hand",
+    "fr": "experience / connaissance directe",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 111,
+    "en": "Helpful",
+    "fr": "utile",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 112,
+    "en": "Into",
+    "fr": "dans (verbe d’action)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 113,
+    "en": "Spend",
+    "fr": "dépenser",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 114,
+    "en": "Valuables",
+    "fr": "objet de valeur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 115,
+    "en": "Handle",
+    "fr": "poigné / gérer, faire face",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 116,
+    "en": "Appliances",
+    "fr": "appareils électroménagers",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 117,
+    "en": "Beyond",
+    "fr": "au dela",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 118,
+    "en": "Head",
+    "fr": "en avant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 119,
+    "en": "Unexpected",
+    "fr": "inattendu",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 120,
+    "en": "Rising",
+    "fr": "hausse",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 121,
+    "en": "Falling",
+    "fr": "baisse",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 122,
+    "en": "Withdraw",
+    "fr": "retirer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 123,
+    "en": "Grants",
+    "fr": "subvention",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 124,
+    "en": "Patents",
+    "fr": "brever",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 125,
+    "en": "Second hand",
+    "fr": "seconde main",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 126,
+    "en": "Appointed",
+    "fr": "Nommé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 127,
+    "en": "Money laundering",
+    "fr": "blanchir l’argent",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 128,
+    "en": "Look forward to",
+    "fr": "attendre avec impatience",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 129,
+    "en": "Remote",
+    "fr": "distant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 130,
+    "en": "King regards",
+    "fr": "cordialement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 131,
+    "en": "Timetable",
+    "fr": "calendrier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 132,
+    "en": "Timeline",
+    "fr": "chronologie",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 133,
+    "en": "Several",
+    "fr": "plusieurs",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 134,
+    "en": "Suitable",
+    "fr": "approprié",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 135,
+    "en": "Libelous claim",
+    "fr": "revendication calomnieuse",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 136,
+    "en": "Keen",
+    "fr": "passionnée",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 137,
+    "en": "Marks",
+    "fr": "marques (abimer)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 138,
+    "en": "Scratches",
+    "fr": "rayures",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 139,
+    "en": "Thought",
+    "fr": "à travers",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 140,
+    "en": "Get along",
+    "fr": "s’entendre (bonne relation)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 141,
+    "en": "Gather",
+    "fr": "rassembler",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 142,
+    "en": "Together",
+    "fr": "ensemble",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 143,
+    "en": "Weary",
+    "fr": "fatigué",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 144,
+    "en": "Bet",
+    "fr": "pari",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 145,
+    "en": "Proxy",
+    "fr": "mandataire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 146,
+    "en": "Shareholders",
+    "fr": "actionnaires",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 147,
+    "en": "Amendment",
+    "fr": "modifications",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 148,
+    "en": "Foster",
+    "fr": "favoriser / adopter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 149,
+    "en": "Fine",
+    "fr": "amende",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 150,
+    "en": "Unless",
+    "fr": "à moin que",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 151,
+    "en": "Out performing",
+    "fr": "surperformant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 152,
+    "en": "Bid",
+    "fr": "offre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 153,
+    "en": "Aloud",
+    "fr": "à haute voix",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 154,
+    "en": "Shortlisted",
+    "fr": "présélectionné",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 155,
+    "en": "Fare",
+    "fr": "tarification (pour service de transport)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 156,
+    "en": "Assets",
+    "fr": "actifs",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 157,
+    "en": "Ensurance",
+    "fr": "assurance (état d’esprit)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 158,
+    "en": "Insurance",
+    "fr": "assurance (couverture financière)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 159,
+    "en": "Aware",
+    "fr": "conscient",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 160,
+    "en": "Sensitivity",
+    "fr": "sensibilité",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 161,
+    "en": "Daunting",
+    "fr": "intimidant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 162,
+    "en": "Clasp",
+    "fr": "serré / saisir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 163,
+    "en": "Annoyed",
+    "fr": "agacé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 164,
+    "en": "Compréhensive",
+    "fr": "comprendre (inclure)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 165,
+    "en": "Demand",
+    "fr": "exiger",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 166,
+    "en": "Postponed",
+    "fr": "reporté",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 167,
+    "en": "Carry out",
+    "fr": "mener a bien",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 168,
+    "en": "Suburds",
+    "fr": "banlieue",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 169,
+    "en": "Range",
+    "fr": "gamme / éventail",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 170,
+    "en": "Pivotal role",
+    "fr": "role centrale",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 171,
+    "en": "Economical",
+    "fr": "économique (resource)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 172,
+    "en": "Economics",
+    "fr": "économie",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 173,
+    "en": "Still",
+    "fr": "encore",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 174,
+    "en": "Waste",
+    "fr": "gaspillage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 175,
+    "en": "Unlikely",
+    "fr": "peu probable",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 176,
+    "en": "Notice période",
+    "fr": "période de préavis",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 177,
+    "en": "Tenants",
+    "fr": "locataire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 178,
+    "en": "Own",
+    "fr": "posséder",
+    "status": "new",
+    "ef": 2.3,
+    "interval": 1,
+    "repetitions": 0,
+    "due": "2025-10-27"
+  },
+  {
+    "id": 179,
+    "en": "Typically",
+    "fr": "comme a son habitude",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 180,
+    "en": "Bikes lanes",
+    "fr": "pistes cyclable",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 181,
+    "en": "Grow",
+    "fr": "grandir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 182,
+    "en": "Heavy",
+    "fr": "lourd",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 183,
+    "en": "Overweight",
+    "fr": "obese",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 184,
+    "en": "Dismissal",
+    "fr": "licenciement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 185,
+    "en": "Resignation",
+    "fr": "démission",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 186,
+    "en": "Too late",
+    "fr": "trop tard",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 187,
+    "en": "Seek",
+    "fr": "chercher",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 188,
+    "en": "Noisy",
+    "fr": "bruyant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 189,
+    "en": "Rather",
+    "fr": "plutôt",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 190,
+    "en": "Supplier",
+    "fr": "fournisseur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 191,
+    "en": "Loan",
+    "fr": "un prêt",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 192,
+    "en": "Terms and conditions",
+    "fr": "conditions generals",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 193,
+    "en": "Siblings",
+    "fr": "frères et soeurs",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 194,
+    "en": "Issued",
+    "fr": "publier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 195,
+    "en": "Out sourcing",
+    "fr": "externalization",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 196,
+    "en": "Behind",
+    "fr": "derrière",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 197,
+    "en": "Behind schedule",
+    "fr": "en retard",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 198,
+    "en": "Vacancy",
+    "fr": "poste vacant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 199,
+    "en": "Disclosure",
+    "fr": "révélation",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 200,
+    "en": "Endeavors",
+    "fr": "efforts",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 201,
+    "en": "Slight",
+    "fr": "léger",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 202,
+    "en": "Enhanced",
+    "fr": "améliorer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 203,
+    "en": "Advice",
+    "fr": "conseil",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 204,
+    "en": "Rewarding",
+    "fr": "gratifiant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 205,
+    "en": "In the meantime",
+    "fr": "en attendant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 206,
+    "en": "Garbage",
+    "fr": "ordure",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 207,
+    "en": "Fill in",
+    "fr": "remplir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 208,
+    "en": "Contest",
+    "fr": "concours / tournoi",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 209,
+    "en": "String",
+    "fr": "corde",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 210,
+    "en": "Quartet",
+    "fr": "quatuor",
+    "status": "learning",
+    "ef": 2.3,
+    "interval": 1,
+    "repetitions": 0,
+    "due": "2025-10-27"
+  },
+  {
+    "id": 211,
+    "en": "Runner up",
+    "fr": "deuxième / vice champion",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 212,
+    "en": "Billboard",
+    "fr": "panneau d’affichage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 213,
+    "en": "Wires",
+    "fr": "file de fer / file électrique",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 214,
+    "en": "Dial tone",
+    "fr": "tonalité",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 215,
+    "en": "Proven",
+    "fr": "éprouvé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 216,
+    "en": "Struggle",
+    "fr": "lutte",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 217,
+    "en": "Strike",
+    "fr": "grève",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 218,
+    "en": "Workforce",
+    "fr": "main d’oeuvre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 219,
+    "en": "Rewind",
+    "fr": "rembobiner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 220,
+    "en": "Stormy",
+    "fr": "orageux",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 221,
+    "en": "Until",
+    "fr": "jusqu’à",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 222,
+    "en": "Fundraising",
+    "fr": "collecte de fond",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 223,
+    "en": "Backdrop",
+    "fr": "toile de fond",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 224,
+    "en": "Wear",
+    "fr": "porter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 225,
+    "en": "Concerns",
+    "fr": "préoccupations",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 226,
+    "en": "Number",
+    "fr": "Nombre (comptable)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 227,
+    "en": "Filing",
+    "fr": "classement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 228,
+    "en": "Out standing",
+    "fr": "en cours",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 229,
+    "en": "To forward",
+    "fr": "transferer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 230,
+    "en": "To back up",
+    "fr": "sauvegarder",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 231,
+    "en": "A bookmarker",
+    "fr": "un signet",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 232,
+    "en": "To spell",
+    "fr": "épeler",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 233,
+    "en": "To guess",
+    "fr": "deviner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 234,
+    "en": "Produce",
+    "fr": "produire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 235,
+    "en": "Behalf of",
+    "fr": "au nom de",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 236,
+    "en": "Write off",
+    "fr": "faire passer au compte de perte de profit",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 237,
+    "en": "Unfit",
+    "fr": "inapte",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 238,
+    "en": "Besides",
+    "fr": "ailleurs",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 239,
+    "en": "Helpless",
+    "fr": "impuissant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 240,
+    "en": "Purpose",
+    "fr": "but",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 241,
+    "en": "Tenancy",
+    "fr": "location",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 242,
+    "en": "Thrown",
+    "fr": "jeter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 243,
+    "en": "Stolen",
+    "fr": "voler",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 244,
+    "en": "Mind",
+    "fr": "esprit",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 245,
+    "en": "Fair",
+    "fr": "justice",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 246,
+    "en": "Crane",
+    "fr": "grue",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 247,
+    "en": "Threat",
+    "fr": "menace",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 248,
+    "en": "To enroll",
+    "fr": "s’inscrire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 249,
+    "en": "To dispute",
+    "fr": "contester",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 250,
+    "en": "Layoff",
+    "fr": "licenciement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 251,
+    "en": "Workload",
+    "fr": "charge de travel",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 252,
+    "en": "To inquire",
+    "fr": "se renseigner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 253,
+    "en": "Step down",
+    "fr": "retirer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 254,
+    "en": "Areas",
+    "fr": "domaines",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 255,
+    "en": "A line with",
+    "fr": "conformément à",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 256,
+    "en": "Candid",
+    "fr": "franc",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 257,
+    "en": "Frightened",
+    "fr": "effrayer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 258,
+    "en": "Flaws",
+    "fr": "default",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 259,
+    "en": "Insofar",
+    "fr": "dans la mesure",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 260,
+    "en": "Whereas",
+    "fr": "alors que",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 261,
+    "en": "Energie efficience",
+    "fr": "économie d’énergie",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 262,
+    "en": "Proud",
+    "fr": "fière",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 263,
+    "en": "Entrance",
+    "fr": "entrée (physiquement)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 264,
+    "en": "Greet",
+    "fr": "accueillir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 265,
+    "en": "commute",
+    "fr": "trajet maison-travail",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 266,
+    "en": "evening",
+    "fr": "soiree",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 267,
+    "en": "To eat out",
+    "fr": "manger au resto",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 268,
+    "en": "To entertain",
+    "fr": "divertir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 269,
+    "en": "To go out",
+    "fr": "Pour sortir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 270,
+    "en": "Some savings",
+    "fr": "quelques économies",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 271,
+    "en": "To volunteer",
+    "fr": "se porter volontaire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 272,
+    "en": "To stay in",
+    "fr": "Pour rester dans",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 273,
+    "en": "A temp",
+    "fr": "un intérimaire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 274,
+    "en": "The stationery",
+    "fr": "la papeterie",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 275,
+    "en": "To go bankrupt",
+    "fr": "faire faillite",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 276,
+    "en": "To manufacture",
+    "fr": "fabriquer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 277,
+    "en": "A plant",
+    "fr": "une usine",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 278,
+    "en": "A subsidiary",
+    "fr": "une filiale",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 279,
+    "en": "A corporation",
+    "fr": "une société",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 280,
+    "en": "A sweatshop",
+    "fr": "endroit où on exploite la main d’œuvre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 281,
+    "en": "Un shift",
+    "fr": "un changement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 282,
+    "en": "The raw materials",
+    "fr": "Les matières premières",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 283,
+    "en": "A mill",
+    "fr": "un moulin",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 284,
+    "en": "Automation",
+    "fr": "automatisation",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 285,
+    "en": "Wheter … or",
+    "fr": "si",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 286,
+    "en": "to be summoned for",
+    "fr": "Être convoqué pour",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 287,
+    "en": "To keep going",
+    "fr": "Pour continuer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 288,
+    "en": "seem",
+    "fr": "sembler / avoir l’air",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 289,
+    "en": "Insofar",
+    "fr": "dans une telle mesure",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 290,
+    "en": "breakdown",
+    "fr": "panne",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 291,
+    "en": "motorway",
+    "fr": "autoroute",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 292,
+    "en": "journey",
+    "fr": "voyage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 293,
+    "en": "to file for bankruptcy",
+    "fr": "Déclarer faillite",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 294,
+    "en": "headache",
+    "fr": "mal de tete",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 295,
+    "en": "Content",
+    "fr": "contenu",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 296,
+    "en": "Lease",
+    "fr": "bail",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 297,
+    "en": "Cease",
+    "fr": "cesser",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 298,
+    "en": "narrowed",
+    "fr": "Rétréci",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 299,
+    "en": "additionally",
+    "fr": "En outre (fin de phrase)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 300,
+    "en": "Promptly",
+    "fr": "rapidement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 301,
+    "en": "Fortitude",
+    "fr": "courage apres douleur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 302,
+    "en": "Bustling",
+    "fr": "Animé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 303,
+    "en": "Avoid",
+    "fr": "éviter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 304,
+    "en": "Adverse",
+    "fr": "Défavorable",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 305,
+    "en": "withholding",
+    "fr": "Retenue",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 306,
+    "en": "go through",
+    "fr": "Passer par",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 307,
+    "en": "amenities",
+    "fr": "aménagements",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 308,
+    "en": "enlightening",
+    "fr": "instructifs",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 309,
+    "en": "To stretch",
+    "fr": "s’étirer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 310,
+    "en": "Hiking",
+    "fr": "randonné",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 311,
+    "en": "A drum",
+    "fr": "batterie (instrument)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 312,
+    "en": "the till",
+    "fr": "La caisse",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 313,
+    "en": "a fitting room",
+    "fr": "Une cabine d’essayage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 314,
+    "en": "court (sport)",
+    "fr": "terrain parquet (basket)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 315,
+    "en": "pitch",
+    "fr": "terrain synthétique / vert (foot)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 316,
+    "en": "Ethos",
+    "fr": "philosophie",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 317,
+    "en": "Widely",
+    "fr": "Largement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 318,
+    "en": "Enlarge",
+    "fr": "agrandir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 319,
+    "en": "Glad",
+    "fr": "content",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 320,
+    "en": "Null and void",
+    "fr": "sans valeur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 321,
+    "en": "Mind",
+    "fr": "avis",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 322,
+    "en": "Timely",
+    "fr": "ponctuelle",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 323,
+    "en": "Address",
+    "fr": "s’occuper de",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 324,
+    "en": "Delve into",
+    "fr": "fouiller dans",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 325,
+    "en": "previously",
+    "fr": "auparavant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 326,
+    "en": "overcrowded",
+    "fr": "bondé/ surpeuplé (taille raisonnable)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 327,
+    "en": "Sticky",
+    "fr": "collant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 328,
+    "en": "Likely",
+    "fr": "probable",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 329,
+    "en": "an allowance",
+    "fr": "une allocation",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 330,
+    "en": "bestseller",
+    "fr": "meilleure vente",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 331,
+    "en": "A novel",
+    "fr": "un roman",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 332,
+    "en": "publisher",
+    "fr": "Editeur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 333,
+    "en": "Skim through",
+    "fr": "Survoler",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 334,
+    "en": "lend",
+    "fr": "prêter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 335,
+    "en": "some ink",
+    "fr": "De l’encre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 336,
+    "en": "Some clay",
+    "fr": "de l’argile",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 337,
+    "en": "Entitle",
+    "fr": "donner un titre a",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 338,
+    "en": "Boring",
+    "fr": "ennuyeux",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 339,
+    "en": "Halted",
+    "fr": "arrêter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 340,
+    "en": "let someone know",
+    "fr": "faire savoir a quelqu’un",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 341,
+    "en": "Snag",
+    "fr": "problèmes, pépin",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 342,
+    "en": "Pride",
+    "fr": "fierté",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 343,
+    "en": "Lonely",
+    "fr": "solitaire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 344,
+    "en": "Consists of",
+    "fr": "se compose de",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 345,
+    "en": "Neither... nor…",
+    "fr": "ni ….. ni",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 346,
+    "en": "by the time",
+    "fr": "Au moment où",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 347,
+    "en": "Quite",
+    "fr": "tout à fait",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 348,
+    "en": "Away",
+    "fr": "extérieur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 349,
+    "en": "numerous",
+    "fr": "nombreux",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 350,
+    "en": "Smooth",
+    "fr": "lisse",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 351,
+    "en": "cutting-edge",
+    "fr": "de pointe",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 352,
+    "en": "Gloves",
+    "fr": "gants",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 353,
+    "en": "a hat",
+    "fr": "un chapeau",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 354,
+    "en": "a ring",
+    "fr": "une bague",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 355,
+    "en": "A skirt",
+    "fr": "une jupe",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 356,
+    "en": "A jumper",
+    "fr": "un pull",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 357,
+    "en": "A tie",
+    "fr": "une cravate",
+    "status": "learning",
+    "ef": 2.7,
+    "interval": 6,
+    "repetitions": 2,
+    "due": "2025-11-01"
+  },
+  {
+    "id": 358,
+    "en": "A belt",
+    "fr": "une ceinture",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 359,
+    "en": "Slim",
+    "fr": "une mince",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 360,
+    "en": "handsome",
+    "fr": "beau",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 361,
+    "en": "clever",
+    "fr": "intelligent",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 362,
+    "en": "mean",
+    "fr": "méchant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 363,
+    "en": "Lazy",
+    "fr": "Paresseux",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 364,
+    "en": "Kind",
+    "fr": "gentil",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 365,
+    "en": "an aunt",
+    "fr": "ta tante",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 366,
+    "en": "a close friend",
+    "fr": "ami proche",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 367,
+    "en": "teenager",
+    "fr": "Un adolescent",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 368,
+    "en": "to crawl",
+    "fr": "ramper",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 369,
+    "en": "a toddler",
+    "fr": "un enfant de bas age",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 370,
+    "en": "retirement",
+    "fr": "une retraite",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 371,
+    "en": "Complain",
+    "fr": "se plaindre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 372,
+    "en": "Workdays",
+    "fr": "jours ouvrable",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 373,
+    "en": "Hang",
+    "fr": "accrocher",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 374,
+    "en": "Careless",
+    "fr": "insouciante",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 375,
+    "en": "Crying",
+    "fr": "pleurer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 376,
+    "en": "To lift",
+    "fr": "soulever",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 377,
+    "en": "Straight",
+    "fr": "droit",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 378,
+    "en": "To run into someone",
+    "fr": "Rencontrer quelqu’un accidentellement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 379,
+    "en": "shame",
+    "fr": "dommage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 380,
+    "en": "exhausting",
+    "fr": "épuisant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 381,
+    "en": "Guilty",
+    "fr": "coupable",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 382,
+    "en": "Handling",
+    "fr": "gérer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 383,
+    "en": "Driveway",
+    "fr": "Dans l'allée",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 384,
+    "en": "Melted",
+    "fr": "fondue",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 385,
+    "en": "The tow truck",
+    "fr": "La dépanneuse",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 386,
+    "en": "Stuck",
+    "fr": "coincé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 387,
+    "en": "In the ditch",
+    "fr": "Dans le fossé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 388,
+    "en": "Collapse",
+    "fr": "s’effondrer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 389,
+    "en": "Relevant",
+    "fr": "pertinent",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 390,
+    "en": "thought-provoking",
+    "fr": "Qui fait réfléchir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 391,
+    "en": "fireworks",
+    "fr": "feu d’artifice",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 392,
+    "en": "aisle",
+    "fr": "allée",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 393,
+    "en": "unruly",
+    "fr": "Indiscipliné",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 394,
+    "en": "keychain",
+    "fr": "porte clé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 395,
+    "en": "Sailling",
+    "fr": "voile , naviguer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 396,
+    "en": "Crowd",
+    "fr": "foule",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 397,
+    "en": "Shrine",
+    "fr": "Lieu de pèlerinage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 398,
+    "en": "breathing",
+    "fr": "Respiration",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 399,
+    "en": "Shore",
+    "fr": "rivage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 400,
+    "en": "the diver",
+    "fr": "le plongeur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 401,
+    "en": "commitment",
+    "fr": "engagement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 402,
+    "en": "complaining",
+    "fr": "Se plaindre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 403,
+    "en": "Then",
+    "fr": "alors / puis",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 404,
+    "en": "Sunburn",
+    "fr": "coup de soleil",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 405,
+    "en": "Shuttle",
+    "fr": "navette",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 406,
+    "en": "Caseload",
+    "fr": "charge de travail",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 407,
+    "en": "Dizzy",
+    "fr": "étourdi",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 408,
+    "en": "Hurry up",
+    "fr": "Depeche toi",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 409,
+    "en": "Enough",
+    "fr": "assez",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 410,
+    "en": "Weakness",
+    "fr": "Faiblesse",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 411,
+    "en": "Rest",
+    "fr": "repos",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 412,
+    "en": "Crowds",
+    "fr": "Foules",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 413,
+    "en": "A realtor",
+    "fr": "agent immobilier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 414,
+    "en": "quotation",
+    "fr": "un devis",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 415,
+    "en": "windy",
+    "fr": "venteux",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 416,
+    "en": "abroad",
+    "fr": "a l’étranger",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 417,
+    "en": "A flat",
+    "fr": "un appartement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 418,
+    "en": "it is what it is",
+    "fr": "C'est la situation et elle doit être acceptée",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 419,
+    "en": "to look after",
+    "fr": "s’occuper",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 420,
+    "en": "Away",
+    "fr": "a l’extérieur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 421,
+    "en": "A band",
+    "fr": "group",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 422,
+    "en": "The canned goods",
+    "fr": "Les conserves",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 423,
+    "en": "Contentious",
+    "fr": "Controversé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 424,
+    "en": "Fail + to",
+    "fr": "Échouer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 425,
+    "en": "raw",
+    "fr": "cru",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 426,
+    "en": "elsewhere",
+    "fr": "ailleurs",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 427,
+    "en": "Cab",
+    "fr": "taxi",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 428,
+    "en": "Perks",
+    "fr": "Avantage",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 429,
+    "en": "Compliant",
+    "fr": "conforme",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 430,
+    "en": "painkillers",
+    "fr": "analgiques",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 431,
+    "en": "Incurred",
+    "fr": "encouru",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 432,
+    "en": "lawnmower",
+    "fr": "Tondeuse (à gazon)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 433,
+    "en": "his shoulder",
+    "fr": "Son épaule",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 434,
+    "en": "soaking up",
+    "fr": "S’imprégner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 435,
+    "en": "lit up",
+    "fr": "illuminé",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 436,
+    "en": "A stroll",
+    "fr": "Une promenade",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 437,
+    "en": "overflowing",
+    "fr": "Débordant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 438,
+    "en": "pulling out",
+    "fr": "sort",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 439,
+    "en": "Figures",
+    "fr": "chiffres",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 440,
+    "en": "Pain",
+    "fr": "douleur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 441,
+    "en": "waiver",
+    "fr": "renonciation",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 442,
+    "en": "call on",
+    "fr": "faire appel / demander",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 443,
+    "en": "call out",
+    "fr": "Crier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 444,
+    "en": "To participate in",
+    "fr": "Pour participer à",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 445,
+    "en": "To take over",
+    "fr": "Pour prendre le relais",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 446,
+    "en": "a sharp",
+    "fr": "pointu",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 447,
+    "en": "Tense",
+    "fr": "tendu",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 448,
+    "en": "Shame",
+    "fr": "la honte",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 449,
+    "en": "An argument",
+    "fr": "se disputer",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 450,
+    "en": "summoned",
+    "fr": "convoqué",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 451,
+    "en": "the counter",
+    "fr": "Le comptoir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 452,
+    "en": "Rubber",
+    "fr": "caoutchouc",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 453,
+    "en": "ropes",
+    "fr": "cordes",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 454,
+    "en": "Formally",
+    "fr": "officiellement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 455,
+    "en": "Workshops",
+    "fr": "ateliers",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 456,
+    "en": "upcoming",
+    "fr": "prochaine",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 457,
+    "en": "Overdue",
+    "fr": "en retard",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 458,
+    "en": "Oil spill",
+    "fr": "marée noir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 459,
+    "en": "Happening",
+    "fr": "événement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 460,
+    "en": "Upset",
+    "fr": "contrarie",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 461,
+    "en": "The track",
+    "fr": "la piste",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 462,
+    "en": "bulk orders",
+    "fr": "Commandes en gros",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 463,
+    "en": "Tight budget",
+    "fr": "Budget serré",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 464,
+    "en": "Brain",
+    "fr": "cerveau",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 465,
+    "en": "Bustling with",
+    "fr": "animé avec",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 466,
+    "en": "As soon as",
+    "fr": "dès que",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 467,
+    "en": "to soak up",
+    "fr": "absorber",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 468,
+    "en": "Plain-clothes",
+    "fr": "vêtement simple",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 469,
+    "en": "compulsory",
+    "fr": "obligatoire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 470,
+    "en": "Faithful",
+    "fr": "fidèle",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 471,
+    "en": "the grass",
+    "fr": "l’herbe",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 472,
+    "en": "keyboard shortcut",
+    "fr": "Raccourci clavier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 473,
+    "en": "Dread",
+    "fr": "redouter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 474,
+    "en": "Layover",
+    "fr": "escale",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 475,
+    "en": "To dread",
+    "fr": "redouter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 476,
+    "en": "Spent",
+    "fr": "épuiser",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 477,
+    "en": "Diary",
+    "fr": "journal intime",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 478,
+    "en": "Out of order",
+    "fr": "hors service",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 479,
+    "en": "Turnover",
+    "fr": "chiffre d’affaire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 480,
+    "en": "go-ahead",
+    "fr": "le feu vert",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 481,
+    "en": "Tight",
+    "fr": "serré",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 482,
+    "en": "Let",
+    "fr": "pas suivi de “to”",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 483,
+    "en": "Overview",
+    "fr": "vue d’ensemble",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 484,
+    "en": "Tireless",
+    "fr": "infaticable",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 485,
+    "en": "undeterred",
+    "fr": "Résolument",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 486,
+    "en": "decisiveness",
+    "fr": "Capacité à prendre des décisions",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 487,
+    "en": "Devising",
+    "fr": "Conception",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 488,
+    "en": "breath",
+    "fr": "souffle",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 489,
+    "en": "Afford",
+    "fr": "permettre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 490,
+    "en": "my former colleagues",
+    "fr": "mes anciens collègues",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 491,
+    "en": "prior to then",
+    "fr": "Avant cela",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 492,
+    "en": "At dawn",
+    "fr": "à l’aube",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 493,
+    "en": "Behavior",
+    "fr": "comportement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 494,
+    "en": "Upset",
+    "fr": "contrarier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 495,
+    "en": "Relief",
+    "fr": "soulagement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 496,
+    "en": "Dress pants",
+    "fr": "pantalon habiller",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 497,
+    "en": "Trails",
+    "fr": "sentiers",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 498,
+    "en": "Dealership",
+    "fr": "concession",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 499,
+    "en": "Realtor",
+    "fr": "agent immobilier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 500,
+    "en": "Noon",
+    "fr": "midi",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 501,
+    "en": "Purses",
+    "fr": "sac a main",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 502,
+    "en": "make an appointment",
+    "fr": "Prendre rendez-vous",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 503,
+    "en": "Fold",
+    "fr": "plier",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 504,
+    "en": "Thus",
+    "fr": "ainsi",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 505,
+    "en": "brightly",
+    "fr": "brillamment (lumineux)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 506,
+    "en": "brilliantly",
+    "fr": "brillamment (competence)",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 507,
+    "en": "Raw",
+    "fr": "crue",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 508,
+    "en": "Shortfalls",
+    "fr": "Déficits",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 509,
+    "en": "Sourcing",
+    "fr": "approvisionnement",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 510,
+    "en": "Inquire",
+    "fr": "se renseigner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 511,
+    "en": "Overseas",
+    "fr": "a l’étranger",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 512,
+    "en": "Touch base",
+    "fr": "reprendre contact",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 513,
+    "en": "Relate",
+    "fr": "raconter",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 514,
+    "en": "Keen on",
+    "fr": "désireux de",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 515,
+    "en": "Useful",
+    "fr": "utile",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 516,
+    "en": "Sworn",
+    "fr": "juré",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 517,
+    "en": "I can hardly wait",
+    "fr": "Je ne peux pas attendre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 518,
+    "en": "Mandatory",
+    "fr": "obligatoire",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 519,
+    "en": "sidetracked",
+    "fr": "détourné",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 520,
+    "en": "Aimed",
+    "fr": "adresser",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 521,
+    "en": "The bottom line",
+    "fr": "profit",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 522,
+    "en": "Recognition",
+    "fr": "reconnaissance",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 523,
+    "en": "Steep",
+    "fr": "raide",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 524,
+    "en": "Overdrawn",
+    "fr": "découvert",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 525,
+    "en": "moving forward",
+    "fr": "allez de l’avant",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 526,
+    "en": "Steam",
+    "fr": "vapeur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 527,
+    "en": "responsible for",
+    "fr": "responsable de",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 528,
+    "en": "work things out",
+    "fr": "régler  les choses",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 529,
+    "en": "Oil spill",
+    "fr": "marais noir",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 530,
+    "en": "Cut down on",
+    "fr": "réduire sur",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 531,
+    "en": "Gives up",
+    "fr": "abandonner",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 532,
+    "en": "Excepted",
+    "fr": "prévue",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  },
+  {
+    "id": 533,
+    "en": "Claims Adjuster",
+    "fr": "expert en sinistre",
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-26"
+  }
+]

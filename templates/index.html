@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block content %}
+  <section class="hero py-5 text-white">
+    <div class="container px-4">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1 class="display-5 fw-bold">Apprends ton vocabulaire rapidement</h1>
+          <p class="lead">Quiz aléatoire EN↔FR, répétition espacée et tolérance aux fautes. Commence maintenant.</p>
+          <div class="d-flex gap-2 flex-wrap mt-3">
+            <a class="btn btn-outline-light btn-lg" href="/quiz?dir=en2fr">Start EN→FR</a>
+            <a class="btn btn-outline-light btn-lg" href="/quiz?dir=fr2en">Start FR→EN</a>
+            <a class="btn btn-outline-light btn-lg" href="/import">Importer</a>
+            <a class="btn btn-outline-light btn-lg" href="/list?status=learning">Voir apprentissage</a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="card p-4 shadow-lg bg-white text-dark">
+            <h3 class="h5">Stats</h3>
+            <p class="mb-0">Total: <strong>{{ total }}</strong></p>
+            <p class="mb-0">Validated: <strong>{{ validated }}</strong></p>
+            <p class="mb-0">Learning: <strong>{{ learning }}</strong></p>
+            <p class="mb-0">Due: <strong>{{ due }}</strong></p>
+            <div class="mt-3 d-flex justify-content-center">
+              <form action="/reset" method="post" onsubmit="return confirm('Reset all progress to new?');">
+                <button class="btn btn-sm btn-danger" type="submit">Reset progress</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

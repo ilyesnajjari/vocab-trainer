@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="card">
+    <h2>Statistics</h2>
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <div class="stat-card p-3 border rounded text-center">
+          <strong class="stat-number">{{ total }}</strong>
+          <div class="text-muted">Total</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-card p-3 border rounded text-center">
+          <strong class="stat-number">{{ validated }}</strong>
+          <div class="text-muted">Validated</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-card p-3 border rounded text-center">
+          <strong class="stat-number">{{ learning }}</strong>
+          <div class="text-muted">Learning</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-card p-3 border rounded text-center">
+          <strong class="stat-number">{{ new }}</strong>
+          <div class="text-muted">New</div>
+        </div>
+      </div>
+    </div>
+    <p class="mt-3"><a class="btn btn-outline-secondary" href="/">Home</a></p>
+
+    <div class="mt-4 card p-3">
+      <h3 class="h6">Répartition par statut</h3>
+      <div style="height:260px;">
+        <canvas id="statusChart" style="max-height:240px; width:100%;"></canvas>
+      </div>
+    </div>
+
+    {# Chart.js and client-side fetch of counts provided by /api/stats/status_counts #}
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      (function(){
+        fetch('/api/stats/status_counts')
+          .then(function(r){ return r.json(); })
+          .then(function(data){
+            var ctx = document.getElementById('statusChart').getContext('2d');
+            new Chart(ctx, {
+              type: 'doughnut',
+              data: {
+                labels: ['New','Learning','Validated'],
+                datasets: [{
+                  data: [data.new || 0, data.learning || 0, data.validated || 0],
+                  backgroundColor: ['#f3f4f6','#ffddb3','#b7f0c2'],
+                  borderColor: ['#e5e7eb','#f59e0b','#16a34a'],
+                  borderWidth: 1
+                }]
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'bottom' } }
+              }
+            });
+          })
+          .catch(function(err){ console.warn('Chart load failed', err); });
+      })();
+    </script>
+  </div>
+{% endblock %}

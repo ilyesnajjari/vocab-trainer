@@ -1,0 +1,279 @@
+:root{
+  --primary: #4f46e5;
+  --accent: #06b6d4;
+  --muted: #6b7280;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --radius: 12px;
+  --glass: rgba(15,23,42,0.04);
+}
+
+html,body{height:100%}
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0; padding: 0; color: var(--text); background: linear-gradient(180deg, var(--bg) 0%, #f1f5f9 100%); min-height:100vh;
+}
+
+/* App container */
+.app-content{ max-width:1200px }
+.container-fluid.px-0 > .app-content{ padding-left: 16px; padding-right: 16px }
+
+/* Cards */
+.card {
+	border-radius: var(--radius);
+	padding: 18px;
+	box-shadow: 0 10px 30px var(--glass);
+	background: var(--card);
+}
+
+/* Hero */
+.hero {
+	padding: 56px 0;
+	background: linear-gradient(120deg,var(--primary),var(--accent));
+	color: white;
+}
+.hero .card { max-width: 360px; margin: 0 auto }
+.hero .display-5 { color: white }
+
+/* Typography */
+.question { font-size: 1.35rem; font-weight: 600; margin-bottom: 12px }
+
+/* Buttons */
+
+/* Navbar brand (title) in dark mode: make it white for maximum contrast */
+.dark-mode .navbar-brand, .dark-mode .navbar-brand .fw-bold { color: #ffffff !important; }
+.btn { border-radius: 10px }
+.btn-primary { background: var(--primary); border-color: var(--primary) }
+.btn-primary:hover { filter: brightness(.95) }
+.btn-outline-secondary { border-radius: 10px; transition: transform .12s ease, box-shadow .12s ease, background .12s ease }
+.btn-outline-secondary:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(2,6,23,0.06); background: rgba(15,23,42,0.04) }
+.btn-transparent { background: transparent; border: none; color: rgba(15,23,42,0.8); padding-top: .375rem; padding-bottom: .375rem }
+
+/* Theme toggle specifics */
+#theme-toggle { min-width: 44px; }
+#theme-icon svg { display: inline-block; vertical-align: middle; height: 16px; width: 16px }
+#theme-label { font-weight: 600; font-size: .9rem }
+
+.dark-mode #theme-toggle { color: var(--text); border-color: rgba(255,255,255,0.12); background: transparent }
+.dark-mode #theme-toggle:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.45) }
+.dark-mode #theme-icon svg { filter: none }
+
+
+/* Table */
+.table-responsive { margin-top: 12px }
+.table { background: transparent }
+.table thead th { border-bottom: 2px solid rgba(15,23,42,0.06) }
+.table tbody td { vertical-align: middle; background: transparent }
+.table tbody tr:hover { transform: translateX(4px); background: rgba(79,70,229,0.06); transition: transform .18s ease, background .18s ease }
+
+/* Badges/status */
+.badge-status { padding: .35em .6em; border-radius: 999px; font-weight:600; font-size:.8rem }
+.status-new { background:#f3f4f6; color:#0f172a }
+.status-learning { background:#fff4e6; color:#92400e }
+.status-validated { background:#ecfccb; color:#166534 }
+
+/* Navbar */
+.navbar { padding-top: .5rem; padding-bottom: .5rem }
+.navbar .nav-link { color: rgba(15,23,42,0.8); font-weight: 500 }
+
+/* Footer */
+footer { padding: 18px 18px; font-size: 0.9rem; color: var(--muted) }
+
+/* Hero fade-in */
+.hero { opacity: 0; transform: translateY(6px); transition: opacity .6s ease, transform .6s ease }
+.hero.visible { opacity: 1; transform: translateY(0) }
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+	.question { font-size: 1.1rem }
+	.app-content { padding: 0 12px }
+	.hero { padding: 28px 0 }
+}
+
+/* Mobile/tablet improvements: make list/table usable on smaller screens */
+@media (max-width: 768px) {
+	/* make search input full width and stack controls */
+	.d-flex .form-control.form-control-sm { width: 100% !important; min-width: 0; }
+	.d-flex form { flex: 1 1 auto; }
+	.d-flex > a.btn { flex-shrink: 0; }
+
+	/* reduce card padding for constrained viewports */
+	.card { padding: 12px; }
+
+	/* table: hide less important columns to avoid horizontal scrolling (status, due, SRS) */
+	/* Columns in /list are: 1:# 2:EN 3:FR 4:status 5:due 6:SRS */
+	#words-table thead th:nth-child(4),
+	#words-table tbody td:nth-child(4),
+	#words-table thead th:nth-child(5),
+	#words-table tbody td:nth-child(5),
+	#words-table thead th:nth-child(6),
+	#words-table tbody td:nth-child(6) {
+		display: none !important;
+	}
+
+	/* allow EN/FR cells to wrap and increase readability */
+	#words-table td, #words-table th { white-space: normal; font-size: 0.95rem; }
+
+	/* make clickable rows easier to tap */
+	#words-table tbody tr { padding: 10px 8px; }
+
+	/* hero card fit */
+	.hero .card { max-width: 100%; padding: 12px; }
+}
+
+/* Dark mode */
+.dark-mode{
+	/* Slightly lighter dark theme for better contrast */
+	--bg: #0b1630; /* was deeper #071226 */
+	--card: #07142a; /* slightly lighter card */
+	--text: #fdfdfd;
+	--muted: #9aa6b2;
+	--glass: rgba(0,0,0,0.45);
+	background: linear-gradient(180deg,#0b1630 0%, #02102a 100%);
+}
+.dark-mode .card { background: var(--card); box-shadow: 0 8px 24px rgba(0,0,0,0.5) }
+.dark-mode .navbar { background: linear-gradient(120deg,#0f172a,#04202a); }
+.dark-mode .hero { background: linear-gradient(120deg,#0f172a,#04202a); }
+.dark-mode .btn-primary { filter: brightness(1.05) }
+.dark-mode .table thead th { border-bottom-color: rgba(255,255,255,0.06) }
+/* Buttons in dark mode: ensure contrast */
+.dark-mode .btn {
+	color: var(--text);
+}
+.dark-mode .btn-primary {
+	background: var(--primary);
+	border-color: var(--primary);
+	color: #ffffff;
+}
+.dark-mode .btn-outline-secondary {
+	color: var(--text);
+	border-color: rgba(255,255,255,0.12);
+	background: transparent;
+}
+.dark-mode .btn-outline-secondary:hover {
+	background: rgba(255,255,255,0.03);
+}
+.dark-mode .btn-transparent { color: var(--text); }
+.dark-mode .nav-link { color: var(--text); }
+
+/* Toggler (burger) visibility in dark mode */
+.dark-mode .navbar-toggler {
+	border-color: rgba(255,255,255,0.08);
+	background: transparent;
+}
+.dark-mode .navbar-toggler:focus {
+	box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.04);
+}
+/* Invert the default svg background-image used by Bootstrap so the icon appears light */
+.dark-mode .navbar-toggler-icon {
+	filter: invert(1) hue-rotate(180deg) saturate(0.6) brightness(1.15);
+	background-color: transparent !important;
+}
+
+/* Make badges readable in dark */
+.dark-mode .status-new { background:#1b293b; color:#dbeafe }
+.dark-mode .status-learning { background:#3b2b1a; color:#ffedd5 }
+.dark-mode .status-validated { background:#2b3a20; color:#d1fae5 }
+
+/* Statistics cards */
+.stat-card { background: var(--card); min-height:92px; display:flex; flex-direction:column; justify-content:center }
+.stat-card .stat-number { font-size: 1.6rem; font-weight:700; color: var(--text); display:block }
+.stat-card .text-muted { color: rgba(236, 238, 242, 0.6) }
+.stat-card:hover { background: rgba(15,23,42,0.02); transform: translateY(-3px); transition: background .12s ease, transform .12s ease }
+
+.dark-mode .stat-card {
+	background: rgba(255,255,255,0.03); /* subtler card on dark bg */
+	border-color: rgba(255,255,255,0.06);
+	box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
+.dark-mode .stat-card .stat-number { color: var(--text); }
+.dark-mode .stat-card .text-muted { color: rgba(230,238,248,0.7); }
+.dark-mode .stat-card:hover { background: rgba(255,255,255,0.06); transform: translateY(-3px); }
+
+/* Ensure all readable text is light in dark mode */
+.dark-mode, .dark-mode body {
+	color: var(--text) !important;
+}
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode p, .dark-mode small, .dark-mode a, .dark-mode label, .dark-mode .lead,
+.dark-mode .form-text, .dark-mode .table, .dark-mode td, .dark-mode th {
+	color: var(--text) !important;
+}
+
+/* Form controls in dark mode: darker background but readable text */
+.dark-mode .form-control, .dark-mode textarea, .dark-mode input, .dark-mode select {
+	background: rgba(255,255,255,0.03);
+	color: var(--text);
+	border-color: rgba(255,255,255,0.08);
+}
+.dark-mode .form-control::placeholder { color: rgba(230,238,248,0.6); }
+
+/* Make table text readable */
+.dark-mode .table, .dark-mode .table td, .dark-mode .table th { color: var(--text); }
+
+/* Dark-mode table hover and row styling: subtler overlay and no horizontal translate */
+.dark-mode .table tbody tr:hover {
+	transform: none;
+	background: rgba(255,255,255,0.03) !important;
+} 
+
+/* Ensure table rows have transparent background in dark so card bg shows through cleanly */
+.dark-mode .table tbody td, .dark-mode .table tbody th {
+	background: transparent !important;
+}
+
+/* Specific fixes: cards that were marked `bg-white text-dark` and the words table */
+/* Some templates use `<div class="card p-4 shadow-lg bg-white text-dark">` — override these in dark mode */
+.dark-mode .card.bg-white.text-dark, .dark-mode .card.bg-white.text-dark * {
+	background: transparent !important; /* allow card container background to show */
+	color: var(--text) !important;
+}
+.dark-mode .card.bg-white.text-dark {
+	background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+	border: 1px solid rgba(255,255,255,0.04);
+	box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+}
+
+/* Words table specific: ensure header, rows and muted text are readable */
+.dark-mode #words-table {
+	color: var(--text) !important;
+	background: transparent !important;
+}
+.dark-mode #words-table thead th {
+	border-bottom-color: rgba(255,255,255,0.06) !important;
+	color: var(--text) !important;
+}
+.dark-mode #words-table tbody td { color: var(--text) !important; }
+.dark-mode #words-table tbody tr { border-bottom: 1px solid rgba(255,255,255,0.02); }
+.dark-mode #words-table tbody tr:hover { background: rgba(255,255,255,0.03) !important; }
+.dark-mode #words-table .text-muted { color: rgba(230,238,248,0.64) !important; }
+
+/* make clickable rows visually consistent: remove translate and add subtle focus */
+.dark-mode #words-table tbody tr:hover { transform: none; }
+.dark-mode #words-table tbody tr:focus, .dark-mode #words-table tbody tr:active {
+	outline: 2px solid rgba(255,255,255,0.06);
+	outline-offset: -2px;
+}
+
+/* Ensure the entire header row and all body rows don't keep a white background in dark mode */
+.dark-mode #words-table thead th,
+.dark-mode #words-table thead td,
+.dark-mode #words-table thead tr {
+	background: transparent !important;
+	color: var(--text) !important;
+}
+
+.dark-mode #words-table tbody tr,
+.dark-mode #words-table tbody td,
+.dark-mode #words-table tbody th {
+	background: transparent !important;
+	color: var(--text) !important;
+}
+
+/* Sometimes Bootstrap utilities or inline styles set bg-white on small cells; force transparent for any utility classes inside the table */
+.dark-mode #words-table [class*="bg-"] {
+	background: transparent !important;
+}
+
+

@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="card text-center p-4">
+    <h2 class="mb-3">Result</h2>
+    {% if correct %}
+      <div class="alert alert-success" role="alert"><strong>Correct ✅</strong></div>
+    {% else %}
+      {% if shown %}
+        <div class="alert alert-info">Answer: <strong>{{ expected }}</strong></div>
+      {% else %}
+        <div class="alert alert-danger">Wrong ❌ — expected: <strong>{{ expected }}</strong></div>
+      {% endif %}
+    {% endif %}
+    <div class="d-flex justify-content-center gap-2 mt-3">
+      <a class="btn btn-primary" href="/quiz{% if dir %}?dir={{ dir }}{% endif %}">Next</a>
+      <a class="btn btn-outline-secondary" href="/quiz?id={{ item.id }}&dir={{ dir if dir is defined else request.args.get('dir','') }}">Retry</a>
+      <a class="btn btn-outline-secondary" href="/">Home</a>
+    </div>
+  </div>
+{% endblock %}

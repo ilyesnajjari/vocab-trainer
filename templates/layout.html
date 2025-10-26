@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vocab Trainer</title>
+    <!-- Inline theme initialization: prevent flash by applying dark-mode class before rendering -->
+    <script>
+      (function(){
+        try{
+          var t = localStorage.getItem('vocab-theme');
+          if(!t){
+            t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+          }
+          if(t === 'dark'){
+            document.documentElement.classList.add('dark-mode');
+          } else {
+            document.documentElement.classList.remove('dark-mode');
+          }
+        }catch(e){/* ignore */}
+      })();
+    </script>
+  <!-- Bootstrap CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Optional icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Modern font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+          <img src="/static/logo.svg" alt="logo" width="36" height="36" class="me-2">
+          <span class="fw-bold">Vocab Trainer</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/">Home</a></li>
+            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/import">Import</a></li>
+            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/quiz?dir=en2fr">Quiz</a></li>
+            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/list">List</a></li>
+            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/stats">Stats</a></li>
+            <li class="nav-item ms-2">
+              <button id="theme-toggle" class="btn btn-sm btn-outline-secondary d-flex align-items-center" title="Toggle theme" aria-pressed="false">
+                <span id="theme-icon" aria-hidden="true"></span>
+                <span id="theme-label" class="ms-2 d-none d-md-inline">Thème</span>
+              </button>
+            </li>
+            <script>
+              // initialize theme button label/icon as early as possible to avoid flicker
+              (function(){
+                try{
+                  var t = localStorage.getItem('vocab-theme');
+                  if(!t){ t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'; }
+                  var icon = document.getElementById('theme-icon');
+                  var label = document.getElementById('theme-label');
+                  var btn = document.getElementById('theme-toggle');
+                  if(!label || !btn) return;
+                  if(t === 'dark'){
+                    if(icon) icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>';
+                    label.textContent = 'Bonne nuit';
+                    btn.setAttribute('aria-pressed','true');
+                  } else {
+                    if(icon) icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.8 1.8-1.8zM1 13h3v-2H1v2zm10 8h2v-3h-2v3zm7.83-16.17l-1.79 1.79 1.8 1.8 1.79-1.79-1.8-1.8zM20 11v2h3v-2h-3zM4.24 19.16l1.79-1.8-1.8-1.79-1.79 1.8 1.8 1.79zM12 6a6 6 0 100 12 6 6 0 000-12z"/></svg>';
+                    label.textContent = 'Bonne journée';
+                    btn.setAttribute('aria-pressed','false');
+                  }
+                }catch(e){/* ignore */}
+              })();
+            </script>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-fluid px-0">
+      <div class="app-content mx-auto px-3" style="max-width:1400px">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div class="mb-3">
+              {% for m in messages %}
+                <div class="alert alert-info">{{ m }}</div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+        </div>
+      </main>
+
+    <footer class="text-center py-3 mt-4">
+      <small class="text-muted">Simple web UI for the vocab trainer.</small>
+    </footer>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-abc" crossorigin="anonymous"></script>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

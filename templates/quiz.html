@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="card">
+    <div class="d-flex justify-content-between align-items-start mb-3">
+      <div>
+        <p class="question mb-1">{{ question }}</p>
+        <small class="text-muted">Direction: {{ 'EN→FR' if direction=='en2fr' else 'FR→EN' }}</small>
+      </div>
+      <div class="text-end">
+        <div class="mb-2"><small class="text-muted">Item: <strong>#{{ item.id }}</strong></small></div>
+      </div>
+    </div>
+
+    <form method="post" action="/quiz" id="quiz-form">
+      <input type="hidden" name="id" value="{{ item.id }}">
+      <input type="hidden" name="dir" value="{{ direction }}">
+      <input type="hidden" name="action" value="answer" id="action-field">
+      <div class="input-group mb-3">
+        <input class="form-control form-control-lg" name="answer" id="answer-input" autofocus autocomplete="off" placeholder="Type your translation and press Enter">
+        <button class="btn btn-primary" type="submit" onclick="document.getElementById('action-field').value='answer'">Submit</button>
+      </div>
+      <div class="d-flex gap-2">
+        <button type="button" class="btn btn-outline-secondary" onclick="doAction('show')">Show answer</button>
+        <button type="button" class="btn btn-outline-secondary" onclick="doAction('skip')">Skip</button>
+        <a class="btn btn-outline-secondary" href="/quiz?id={{ item.id }}&dir={{ 'fr2en' if direction=='en2fr' else 'en2fr' }}">Flip direction</a>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    const flipUrl = "{{ url_for('web_quiz_get', id=item.id, dir=('fr2en' if direction=='en2fr' else 'en2fr')) }}";
+    function doAction(act){
+      document.getElementById('action-field').value = act;
+      document.getElementById('quiz-form').submit();
+    }
+    // keyboard shortcuts (only when not focused in input)
+    document.addEventListener('keydown', function(e){
+      const tag = document.activeElement.tagName.toLowerCase();
+      if(tag === 'input' || tag === 'textarea') return;
+      if(e.key === 's') doAction('show');
+      if(e.key === 'k') doAction('skip');
+      if(e.key === 'f') window.location.href = flipUrl;
+    });
+  </script>
+{% endblock %}
