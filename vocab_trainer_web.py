@@ -5,6 +5,7 @@ Run: FLASK_APP=vocab_trainer_web.py flask run --port 5001
 or: python3 vocab_trainer_web.py
 """
 from flask import Flask, request, redirect, url_for, render_template, flash, send_file, jsonify
+import os
 import json
 from pathlib import Path
 from vocab_trainer import load_words, save_words, import_text, sm2_update, match_answer, export_csv, reset_progress
@@ -12,7 +13,8 @@ from datetime import date
 import random
 
 app = Flask(__name__)
-app.secret_key = 'change-me-to-a-secure-random-key'
+# Prefer a secret from the environment for production; fall back to a dev placeholder.
+app.secret_key = os.environ.get('VOCAB_SECRET', os.environ.get('SECRET_KEY', 'change-me-insecure-dev-only'))
 ROOT = Path(__file__).resolve().parent
 
 
@@ -214,5 +216,11 @@ def api_status_counts():
 
 
 if __name__ == '__main__':
-    # run built-in server for convenience
-    app.run(port=5001, debug=True)
+    # Determine host/port from environment (platforms like Render set $PORT)
+    port = int(os.environ.get('PORT', 5001))
+    host = os.environ.get('HOST', '0.0.0.0')
+    # control debug via FLASK_DEBUG env (set to '0' in production)
+    debug_env = os.environ.get('FLASK_DEBUG')
+    debug = True if debug_env is None else (debug_env not in ('0', 'false', 'False'))
+    print(f"Starting server on {host}:{port} (debug={debug})")
+    app.run(host=host, port=port, debug=debug)
