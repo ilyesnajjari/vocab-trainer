@@ -52,32 +52,34 @@
                 <span id="theme-label" class="ms-2 d-none d-md-inline">Thème</span>
               </button>
             </li>
-            <script>
-              // initialize theme button label/icon as early as possible to avoid flicker
-              (function(){
-                try{
-                  var t = localStorage.getItem('vocab-theme');
-                  if(!t){ t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'; }
-                  var icon = document.getElementById('theme-icon');
-                  var label = document.getElementById('theme-label');
-                  var btn = document.getElementById('theme-toggle');
-                  if(!label || !btn) return;
-                  if(t === 'dark'){
-                    if(icon) icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>';
-                    label.textContent = 'Bonne nuit';
-                    btn.setAttribute('aria-pressed','true');
-                  } else {
-                    if(icon) icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.8 1.8-1.8zM1 13h3v-2H1v2zm10 8h2v-3h-2v3zm7.83-16.17l-1.79 1.79 1.8 1.8 1.79-1.79-1.8-1.8zM20 11v2h3v-2h-3zM4.24 19.16l1.79-1.8-1.8-1.79-1.79 1.8 1.8 1.79zM12 6a6 6 0 100 12 6 6 0 000-12z"/></svg>';
-                    label.textContent = 'Bonne journée';
-                    btn.setAttribute('aria-pressed','false');
-                  }
-                }catch(e){/* ignore */}
-              })();
-            </script>
+          
           </ul>
         </div>
       </div>
     </nav>
+
+    <script>
+      // initialize theme button label/icon as early as possible to avoid flicker
+      (function(){
+        try{
+          var t = localStorage.getItem('vocab-theme');
+          if(!t){ t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'; }
+          var icon = document.getElementById('theme-icon');
+          var label = document.getElementById('theme-label');
+          var btn = document.getElementById('theme-toggle');
+          if(!label || !btn) return;
+          if(t === 'dark'){
+            if(icon) icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>';
+            label.textContent = 'Bonne nuit';
+            btn.setAttribute('aria-pressed','true');
+          } else {
+            if(icon) icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.8 1.8-1.8zM1 13h3v-2H1v2zm10 8h2v-3h-2v3zm7.83-16.17l-1.79 1.79 1.8 1.8 1.79-1.79-1.8-1.8zM20 11v2h3v-2h-3zM4.24 19.16l1.79-1.8-1.8-1.79-1.79 1.8 1.8 1.79zM12 6a6 6 0 100 12 6 6 0 000-12z"/></svg>';
+            label.textContent = 'Bonne journée';
+            btn.setAttribute('aria-pressed','false');
+          }
+        }catch(e){/* ignore */}
+      })();
+    </script>
 
     <main class="container-fluid px-0">
       <div class="app-content mx-auto px-3" style="max-width:1400px">
@@ -98,8 +100,25 @@
       <small class="text-muted">Simple web UI for the vocab trainer.</small>
     </footer>
 
-    <!-- Bootstrap JS (optional) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-abc" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Diagnostic: non-intrusive logging to help debug the navbar toggler
+      (function(){
+        try{
+          var toggler = document.querySelector('.navbar-toggler');
+          var collapseEl = document.getElementById('mainNav');
+          console.log('Navbar debug: bootstrap present?', typeof bootstrap !== 'undefined');
+          if(!toggler || !collapseEl) return;
+          toggler.addEventListener('click', function(){
+            console.log('Navbar toggler clicked. bootstrap available:', typeof bootstrap !== 'undefined');
+            setTimeout(function(){
+              console.log('mainNav classList after click:', collapseEl.className);
+            }, 80);
+          }, {passive: true});
+        }catch(e){ console.error('Navbar debug error', e); }
+      })();
+    </script>
     <script src="/static/app.js"></script>
   </body>
 </html>

@@ -41,6 +41,14 @@ document.addEventListener('DOMContentLoaded', function () {
       if (href) window.location.href = href;
     });
   });
+  // ensure delete forms inside rows don't trigger the row click navigation
+  document.querySelectorAll('.delete-form').forEach(f => {
+    f.addEventListener('click', function(e){
+      e.stopPropagation();
+    });
+    // also stop propagation on the submit button to be safe
+    f.querySelectorAll('button').forEach(b => b.addEventListener('click', function(e){ e.stopPropagation(); }));
+  });
   // make table rows clickable
   document.querySelectorAll('tr[data-href]').forEach(r => {
     r.style.cursor = 'pointer';

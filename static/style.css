@@ -91,6 +91,19 @@ footer { padding: 18px 18px; font-size: 0.9rem; color: var(--muted) }
 	.hero { padding: 28px 0 }
 }
 
+/* List page: center the card and constrain width on small screens */
+.list-card { max-width: 1080px; margin: 0 auto; }
+@media (max-width: 768px) {
+	.list-card { max-width: 720px; }
+}
+@media (max-width: 576px) {
+	.list-card { width: calc(100% - 24px); margin: 10px auto; padding: 10px; box-shadow: 0 8px 18px rgba(0,0,0,0.06); }
+	/* ensure the table wrapper doesn't push content left; allow horizontal scrolling if needed */
+	.list-card .table-responsive { overflow-x: auto; }
+	/* center small text cells for better balance */
+	#words-table td, #words-table th { text-align: left; }
+}
+
 /* Mobile/tablet improvements: make list/table usable on smaller screens */
 @media (max-width: 768px) {
 	/* make search input full width and stack controls */
@@ -120,6 +133,16 @@ footer { padding: 18px 18px; font-size: 0.9rem; color: var(--muted) }
 
 	/* hero card fit */
 	.hero .card { max-width: 100%; padding: 12px; }
+}
+
+/* Improve spacing on small screens so hero buttons and stats card aren't too close */
+@media (max-width: 576px) {
+	.hero .d-flex.gap-2 { gap: 0.5rem; }
+	.hero .d-flex.gap-2 .btn { margin-bottom: 8px; width: 100%; }
+	.hero .col-lg-5 { margin-top: 14px; }
+	.hero .card { padding: 16px; }
+	/* give the stats card a bit more breathing room */
+	.hero .card p { margin-bottom: 6px; }
 }
 
 /* Dark mode */
@@ -274,6 +297,47 @@ footer { padding: 18px 18px; font-size: 0.9rem; color: var(--muted) }
 /* Sometimes Bootstrap utilities or inline styles set bg-white on small cells; force transparent for any utility classes inside the table */
 .dark-mode #words-table [class*="bg-"] {
 	background: transparent !important;
+}
+
+/* Pagination: make the page list responsive on small screens */
+.pagination {
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap; /* allow wrapping on larger small screens */
+}
+.pagination .page-item { flex: 0 0 auto; }
+.pagination .page-link { padding: .35rem .6rem; font-size: .95rem; }
+
+@media (max-width: 576px) {
+	/* On very small screens, allow horizontal scrolling instead of wrapping too many items */
+	.pagination { flex-wrap: nowrap; overflow-x: auto; padding: 8px 6px; -webkit-overflow-scrolling: touch; }
+	.pagination::-webkit-scrollbar { height: 6px; }
+	.pagination::-webkit-scrollbar-thumb { background: rgba(15,23,42,0.08); border-radius: 6px; }
+	.pagination .page-link { padding: .3rem .5rem; font-size: .9rem; }
+}
+
+/* Fix collapsed navbar on small screens: make it full-width and stacked under the brand */
+@media (max-width: 991px) {
+	.navbar { position: relative; }
+	.navbar .navbar-collapse {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background: var(--card);
+		padding: 12px;
+		border-radius: 0 0 var(--radius) var(--radius);
+		box-shadow: 0 8px 24px var(--glass);
+		z-index: 1050;
+	}
+	.navbar .navbar-nav { flex-direction: column; align-items: stretch; }
+	.navbar .nav-link { padding: .6rem 0; }
+	.navbar .nav-item + .nav-item { margin-top: 6px; }
+	/* ensure theme toggle sits at end on small screens but aligned nicely */
+	.navbar .ms-2 { margin-left: 0.5rem !important; }
+	.dark-mode .navbar .navbar-collapse { background: var(--card); }
 }
 
 

@@ -100,6 +100,32 @@ def web_export():
     return send_file(str(out), as_attachment=True)
 
 
+@app.route('/word/delete', methods=['POST'])
+def web_word_delete():
+    """Delete a word by id (POST). Preserves optional q/status/page filters when redirecting back to list."""
+    try:
+        wid = int(request.form.get('id'))
+    except (TypeError, ValueError):
+        flash('Invalid id for deletion.')
+        return redirect(request.referrer or url_for('web_list'))
+
+    words = load_words()
+    before = len(words)
+    words = [w for w in words if w.get('id') != wid]
+    if len(words) == before:
+        flash('Item not found; nothing deleted.')
+        return redirect(request.referrer or url_for('web_list'))
+
+    save_words(words)
+    flash(f'Deleted item {wid}.')
+
+    # preserve filters/pagination if provided
+    q = request.form.get('q','')
+    status = request.form.get('status','')
+    page = request.form.get('page','1')
+    return redirect(url_for('web_list', q=q or None, status=status or None, page=page or None))
+
+
 @app.route('/reset', methods=['POST'])
 def web_reset():
     reset_progress()

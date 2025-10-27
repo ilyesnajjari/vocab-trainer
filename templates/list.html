@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% block content %}
-  <div class="card">
+  <div class="card list-card">
     <div class="d-flex justify-content-between align-items-center mb-3">
       <h2 class="mb-0">Word list</h2>
       <div class="d-flex gap-2 align-items-center">
@@ -15,7 +15,17 @@
     </div>
     <div class="table-responsive">
       <table id="words-table" class="table table-hover align-middle">
-        <thead><tr><th style="width:56px">#</th><th>EN</th><th>FR</th><th style="width:120px">status</th><th style="width:140px">due</th><th style="width:120px">SRS</th></tr></thead>
+        <thead>
+          <tr>
+            <th style="width:56px">#</th>
+            <th>EN</th>
+            <th>FR</th>
+            <th style="width:120px">status</th>
+            <th style="width:140px">due</th>
+            <th style="width:120px">SRS</th>
+            <th style="width:56px" class="text-end">&nbsp;</th>
+          </tr>
+        </thead>
         <tbody>
         {% for w in words %}
           <tr data-href="{{ url_for('web_quiz_get', id=w.id) }}">
@@ -27,6 +37,20 @@
             </td>
             <td><small class="text-muted">{{ w.due }}</small></td>
             <td><small class="text-muted">ef: {{ w.ef }} · int: {{ w.interval }} · rep: {{ w.repetitions }}</small></td>
+            <td class="text-end">
+              <form method="post" action="{{ url_for('web_word_delete') }}" class="d-inline delete-form" onsubmit="return confirm('Supprimer cet élément ?');">
+                <input type="hidden" name="id" value="{{ w.id }}">
+                <input type="hidden" name="q" value="{{ q }}">
+                <input type="hidden" name="status" value="{{ status }}">
+                <input type="hidden" name="page" value="{{ page }}">
+                <button type="submit" class="btn btn-sm btn-outline-secondary" title="Delete">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                    <path d="M5.5 5.5A.5.5 0 016 5h4a.5.5 0 010 1H6a.5.5 0 01-.5-.5z"/>
+                    <path d="M14.5 3a1 1 0 01-1 1H13v9a2 2 0 01-2 2H5a2 2 0 01-2-2V4h-.5a1 1 0 010-2h3.086a1 1 0 00.707-.293L7.5.5h1l.207.207A1 1 0 009.414 1h3.086a1 1 0 010 2H14.5z"/>
+                  </svg>
+                </button>
+              </form>
+            </td>
           </tr>
         {% endfor %}
         </tbody>
