@@ -1333,11 +1333,11 @@
     "id": 135,
     "en": "Libelous claim",
     "fr": "revendication calomnieuse",
-    "status": "new",
-    "ef": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "due": "2025-10-26"
+    "status": "learning",
+    "ef": 2.6,
+    "interval": 1,
+    "repetitions": 1,
+    "due": "2025-10-29"
   },
   {
     "id": 136,
@@ -1553,11 +1553,11 @@
     "id": 157,
     "en": "Ensurance",
     "fr": "assurance (état d’esprit)",
-    "status": "new",
-    "ef": 2.5,
-    "interval": 0,
+    "status": "learning",
+    "ef": 2.3,
+    "interval": 1,
     "repetitions": 0,
-    "due": "2025-10-26"
+    "due": "2025-10-29"
   },
   {
     "id": 158,
@@ -1623,11 +1623,11 @@
     "id": 164,
     "en": "Compréhensive",
     "fr": "comprendre (inclure)",
-    "status": "new",
-    "ef": 2.5,
-    "interval": 0,
+    "status": "learning",
+    "ef": 2.3,
+    "interval": 1,
     "repetitions": 0,
-    "due": "2025-10-26"
+    "due": "2025-10-29"
   },
   {
     "id": 165,
@@ -4393,11 +4393,11 @@
     "id": 441,
     "en": "waiver",
     "fr": "renonciation",
-    "status": "new",
-    "ef": 2.5,
-    "interval": 0,
+    "status": "learning",
+    "ef": 2.3,
+    "interval": 1,
     "repetitions": 0,
-    "due": "2025-10-26"
+    "due": "2025-10-29"
   },
   {
     "id": 442,
@@ -5293,11 +5293,11 @@
     "id": 531,
     "en": "Gives up",
     "fr": "abandonner",
-    "status": "new",
-    "ef": 2.5,
-    "interval": 0,
+    "status": "learning",
+    "ef": 2.3,
+    "interval": 1,
     "repetitions": 0,
-    "due": "2025-10-26"
+    "due": "2025-10-29"
   },
   {
     "id": 532,
@@ -5323,6 +5323,10 @@
     "id": 533,
     "en": "lie",
     "fr": "mensonge",
-    "status": "new"
+    "status": "new",
+    "ef": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "due": "2025-10-28"
   }
 ]

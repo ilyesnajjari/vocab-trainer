@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="/static/style.css">
   </head>
   <body>
+    <a class="skip-link visually-hidden-focusable" href="#main-content">Aller au contenu</a>
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div class="container-fluid px-4">
         <a class="navbar-brand d-flex align-items-center" href="/">
@@ -39,13 +40,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav" aria-label="Main navigation">
           <ul class="navbar-nav align-items-center">
-            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/">Home</a></li>
-            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/import">Import</a></li>
-            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/quiz?dir=en2fr">Quiz</a></li>
-            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/list">List</a></li>
-            <li class="nav-item"><a role="button" class="nav-link btn btn-sm btn-transparent nav-btn px-3" data-href="/stats">Stats</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-sm btn-transparent px-3" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-sm btn-transparent px-3" href="/import">Import</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-sm btn-transparent px-3" href="/quiz?dir=en2fr">Quiz</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-sm btn-transparent px-3" href="/list">List</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-sm btn-transparent px-3" href="/stats">Stats</a></li>
             <li class="nav-item ms-2">
               <button id="theme-toggle" class="btn btn-sm btn-outline-secondary d-flex align-items-center" title="Toggle theme" aria-pressed="false">
                 <span id="theme-icon" aria-hidden="true"></span>
@@ -81,7 +82,7 @@
       })();
     </script>
 
-    <main class="container-fluid px-0">
+    <main id="main-content" class="container-fluid px-0">
       <div class="app-content mx-auto px-3" style="max-width:1400px">
         {% with messages = get_flashed_messages() %}
           {% if messages %}

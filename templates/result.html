@@ -12,9 +12,28 @@
       {% endif %}
     {% endif %}
     <div class="d-flex justify-content-center gap-2 mt-3">
-      <a class="btn btn-primary" href="/quiz{% if dir %}?dir={{ dir }}{% endif %}">Next</a>
-      <a class="btn btn-outline-secondary" href="/quiz?id={{ item.id }}&dir={{ dir if dir is defined else request.args.get('dir','') }}">Retry</a>
-      <a class="btn btn-outline-secondary" href="/">Home</a>
+  <a id="next-btn" class="btn btn-primary" href="/quiz{% if dir %}?dir={{ dir }}{% endif %}">Next</a>
+  <a id="retry-btn" class="btn btn-outline-secondary" href="/quiz?id={{ item.id }}&dir={{ dir if dir is defined else request.args.get('dir','') }}">Retry</a>
+  <a id="home-btn" class="btn btn-outline-secondary" href="/">Home</a>
     </div>
+    <script>
+      // Allow pressing Enter to go to next item for accessibility.
+      (function(){
+        try{
+          var next = document.getElementById('next-btn');
+          if(next){
+            // focus the Next button so Enter will activate it for keyboard users
+            next.focus({preventScroll:true});
+          }
+          document.addEventListener('keydown', function(e){
+            var tag = document.activeElement && document.activeElement.tagName && document.activeElement.tagName.toLowerCase();
+            if(tag === 'input' || tag === 'textarea') return; // don't override typing
+            if(e.key === 'Enter'){
+              if(next){ next.click(); }
+            }
+          });
+        }catch(e){/* ignore */}
+      })();
+    </script>
   </div>
 {% endblock %}

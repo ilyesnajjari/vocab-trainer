@@ -28,7 +28,7 @@
         </thead>
         <tbody>
         {% for w in words %}
-          <tr data-href="{{ url_for('web_quiz_get', id=w.id) }}">
+          <tr data-href="{{ url_for('web_quiz_get', id=w.id) }}" tabindex="0" role="link" aria-label="Open quiz for {{ w.en }} / {{ w.fr }}">
             <td><small class="text-muted">{{ w.id }}</small></td>
             <td>{{ w.en }}</td>
             <td class="text-muted">{{ w.fr }}</td>

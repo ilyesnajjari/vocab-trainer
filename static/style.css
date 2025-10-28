@@ -5,6 +5,7 @@
   --bg: #f8fafc;
   --card: #ffffff;
   --text: #0f172a;
+	--nav-height: 32px; /* default fallback for header height */
   --radius: 12px;
   --glass: rgba(15,23,42,0.04);
 }
@@ -15,8 +16,41 @@ body {
   margin: 0; padding: 0; color: var(--text); background: linear-gradient(180deg, var(--bg) 0%, #f1f5f9 100%); min-height:100vh;
 }
 
+/* Skip link visible when focused (keyboard users) */
+.skip-link {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	padding: 8px 12px;
+	background: rgba(0,0,0,0.72);
+	color: #fff;
+	z-index: 1200;
+	border-radius: 6px;
+	transform: translateY(-8px);
+	transition: transform .18s ease, opacity .12s ease;
+	opacity: 0;
+}
+.skip-link:focus {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Focus-visible styles for keyboard users */
+:focus { outline: none; }
+:focus-visible {
+	outline: 3px solid rgba(79,70,229,0.28);
+	outline-offset: 2px;
+}
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+	box-shadow: 0 0 0 4px rgba(79,70,229,0.06);
+}
+
+/* Shortcut hints box for accessibility */
+/* Shortcut hints removed per user preference (handled via keyboard only) */
+
+
 /* App container */
-.app-content{ max-width:1200px }
+.app-content{ max-width:1200px; padding-top: calc(var(--nav-height) + 8px); }
 .container-fluid.px-0 > .app-content{ padding-left: 16px; padding-right: 16px }
 
 /* Cards */
@@ -47,8 +81,31 @@ body {
 .btn-primary { background: var(--primary); border-color: var(--primary) }
 .btn-primary:hover { filter: brightness(.95) }
 .btn-outline-secondary { border-radius: 10px; transition: transform .12s ease, box-shadow .12s ease, background .12s ease }
-.btn-outline-secondary:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(2,6,23,0.06); background: rgba(15,23,42,0.04) }
+.btn-outline-secondary:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(2,6,23,0.06); background: rgba(15,23,42,0.04); color: var(--text) !important; }
 .btn-transparent { background: transparent; border: none; color: rgba(15,23,42,0.8); padding-top: .375rem; padding-bottom: .375rem }
+
+/* Ensure outline-light buttons remain readable on hover (avoid white-on-white) */
+.btn-outline-light {
+	color: #ffffff;
+	border-color: rgba(255,255,255,0.85);
+}
+.btn-outline-light:hover, .btn-outline-light:focus {
+	/* light background on hover, but dark text for readability */
+	background: #ffffff !important;
+	color: #0f172a !important;
+	border-color: #ffffff !important;
+	box-shadow: 0 8px 24px rgba(2,6,23,0.06);
+}
+.dark-mode .btn-outline-light {
+	color: rgba(255,255,255,0.9);
+	border-color: rgba(255,255,255,0.12);
+}
+.dark-mode .btn-outline-light:hover, .dark-mode .btn-outline-light:focus {
+	/* in dark mode, keep hover slightly translucent to avoid too-bright white */
+	background: rgba(255,255,255,0.06) !important;
+	color: var(--text) !important;
+	border-color: rgba(255,255,255,0.12) !important;
+}
 
 /* Theme toggle specifics */
 #theme-toggle { min-width: 44px; }

@@ -20,11 +20,12 @@
         <button class="btn btn-primary" type="submit" onclick="document.getElementById('action-field').value='answer'">Submit</button>
       </div>
       <div class="d-flex gap-2">
-        <button type="button" class="btn btn-outline-secondary" onclick="doAction('show')">Show answer</button>
-        <button type="button" class="btn btn-outline-secondary" onclick="doAction('skip')">Skip</button>
-        <a class="btn btn-outline-secondary" href="/quiz?id={{ item.id }}&dir={{ 'fr2en' if direction=='en2fr' else 'en2fr' }}">Flip direction</a>
+        <button type="button" id="show-btn" class="btn btn-outline-secondary" onclick="doAction('show')">Show answer</button>
+        <button type="button" id="skip-btn" class="btn btn-outline-secondary" onclick="doAction('skip')">Skip</button>
+        <a id="flip-btn" class="btn btn-outline-secondary" href="/quiz?id={{ item.id }}&dir={{ 'fr2en' if direction=='en2fr' else 'en2fr' }}">Flip direction</a>
       </div>
     </form>
+    
   </div>
 
   <script>
@@ -33,13 +34,6 @@
       document.getElementById('action-field').value = act;
       document.getElementById('quiz-form').submit();
     }
-    // keyboard shortcuts (only when not focused in input)
-    document.addEventListener('keydown', function(e){
-      const tag = document.activeElement.tagName.toLowerCase();
-      if(tag === 'input' || tag === 'textarea') return;
-      if(e.key === 's') doAction('show');
-      if(e.key === 'k') doAction('skip');
-      if(e.key === 'f') window.location.href = flipUrl;
-    });
+    // keep local helper available; main global shortcuts are handled in app.js
   </script>
 {% endblock %}
